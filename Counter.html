@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head>
+        <title>Call Counter</title>
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 90vh;
+                background-color: #1f262a;
+            }
+            button {
+                padding: 10px;
+                outline-style: outset;
+                outline-color: #006b91;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                background-color: #00a7e2;
+                color: #ffffff;
+            }
+            div.center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            span {
+                padding: 10px;
+                color: white;
+            }
+        </style>
+        <script>
+            var clicks = 0;
+            function clickME() {
+clicks += 1;
+                document.getElementById("clicks").innerHTML = clicks;
+}
+        </script>
+    </head>
+    <body>
+        <div>
+            <div class="center">
+                <button onclick="clickME()"> Add to count </button>
+                <span><a id="clicks">1</a></span>
+            </div>
+        </div>
+
+</body></html>
