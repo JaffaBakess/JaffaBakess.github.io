@@ -1,0 +1,28 @@
+
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 90vh;
+                background-color: #1f262a;
+            }
+            button {
+                padding: 10px;
+                outline-style: outset;
+                outline-color: #006b91;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                background-color: #00a7e2;
+                color: #ffffff;
+            }
+            div.center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            span {
+                padding: 10px;
+                color: white;
+            }
+        
