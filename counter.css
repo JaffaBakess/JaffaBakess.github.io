@@ -9,12 +9,12 @@
             button {
                 padding: 10px;
                 outline-style: outset;
-                outline-color: #006b91;
+                outline-color: #0169f2;
                 border: none;
                 border-radius: 4px;
                 cursor: pointer;
-                background-color: #00a7e2;
-                color: #ffffff;
+                background-color: #01357a;
+                color: #ffc107;
             }
             div.center {
                 display: flex;
@@ -23,6 +23,6 @@
             }
             span {
                 padding: 10px;
-                color: white;
+                color: #ffc107;
             }
         
