@@ -1,0 +1,16 @@
+p.header {
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 16px;
+}
+p.script {
+  font-family: Verdana, Geneva, sans-serif;
+}
+p.time {
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
