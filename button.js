@@ -6,5 +6,5 @@ function clickME() {
 var clicker = 0;
 function clickerME() {
   clicker += 1;
-  document.getElementById("clicker").innerHTML = clicks;
+  document.getElementById("clicker").innerHTML = clicker;
 }
