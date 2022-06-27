@@ -5,6 +5,6 @@ function clickME() {
 }
 var clicker = 0;
 function clickerME() {
-  clicks += 1;
+  clicker += 1;
   document.getElementById("clicker").innerHTML = clicks;
 }
