@@ -3,13 +3,7 @@
         <title>Call Counter</title>
         <link rel="stylesheet" type="text/css" href="/navbar.css">
         <link rel="stylesheet" type="text/css" href="/counter.css">
-        <script>
-            var clicks = 0;
-            function clickME() {
-                clicks += 1;
-                document.getElementById("clicks").innerHTML = clicks;
-                }
-        </script>
+	<script src="/button.js></script>
     </head>
     <body>
     <div class="banner">
@@ -28,11 +22,12 @@
 			</li>
 		</ul>
 	</div>
-        <div>
+        <div class="middle">
             <div class="center">
                 <button onclick="clickME()"> Add to count </button>
                 <span><a id="clicks">1</a></span>
             </div>
         </div>
 </body>
+<script src="/button.js></script>
 </html>
