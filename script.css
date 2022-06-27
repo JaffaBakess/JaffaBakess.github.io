@@ -1,3 +1,7 @@
+body {
+  background-color: #1f262a;
+  color: #fff;
+}
 p.header {
   font-weight: bold;
   font-family: Verdana, Geneva, sans-serif;
