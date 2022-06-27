@@ -4,6 +4,7 @@
             div.middle {
                 display: flex;
                 height: 90vh;
+                justify-content: center;
             }
             button {
                 padding: 10px;
