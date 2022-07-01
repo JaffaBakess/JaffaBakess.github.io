@@ -13,3 +13,8 @@ function sclickME() {
   slam += 1;
   document.getElementById("slam").innerHTML = slam;
 }
+var tpsclick = 0;
+function tpsclickME() {
+  tpsclick += 1;
+  document.getElementById("tpsclick").innerHTML = tpsclick;
+}
