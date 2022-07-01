@@ -8,3 +8,8 @@ function clickerME() {
   clicker += 1;
   document.getElementById("clicker").innerHTML = clicker;
 }
+var slam = 0;
+function sclickME() {
+  slam += 1;
+  document.getElementById("slam").innerHTML = slam;
+}
