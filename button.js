@@ -21,5 +21,5 @@ function tpsME() {
 var rented = 0;
 function rentME() {
   rented += 1;
-  document.getElementById("rented").innerHTML = tps;
+  document.getElementById("rented").innerHTML = rented;
 }
