@@ -18,3 +18,8 @@ function tpsME() {
   tps += 1;
   document.getElementById("tps").innerHTML = tps;
 }
+var rented = 0;
+function rentME() {
+  rented += 1;
+  document.getElementById("rented").innerHTML = tps;
+}
