@@ -1,20 +1,20 @@
-var clicks = 0;
-function clickME() {
-  clicks += 1;
-  document.getElementById("clicks").innerHTML = clicks;
+var called = 0;
+function callME() {
+  called += 1;
+  document.getElementById("called").innerHTML = called;
 }
-var clicker = 0;
-function clickerME() {
-  clicker += 1;
-  document.getElementById("clicker").innerHTML = clicker;
+var answered = 0;
+function answerME() {
+  answered += 1;
+  document.getElementById("answered").innerHTML = answered;
 }
 var slam = 0;
-function sclickME() {
+function slamME() {
   slam += 1;
   document.getElementById("slam").innerHTML = slam;
 }
-var tpsclick = 0;
-function tpsclickME() {
-  tpsclick += 1;
-  document.getElementById("tpsclick").innerHTML = tpsclick;
+var tps = 0;
+function tpsME() {
+  tps += 1;
+  document.getElementById("tps").innerHTML = tps;
 }
